@@ -1,0 +1,10 @@
+[group_cockpit-cockpit-preview]
+enabled=0
+name=Copr repo for cockpit-preview owned by @cockpit
+baseurl=https://copr-be.cloud.fedoraproject.org/results/@cockpit/cockpit-preview/epel-7-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://copr-be.cloud.fedoraproject.org/results/@cockpit/cockpit-preview/pubkey.gpg
+repo_gpgcheck=0
+enabled_metadata=1
